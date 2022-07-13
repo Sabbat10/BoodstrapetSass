@@ -1,0 +1,16 @@
+$theme-colors: (
+    'primary': yellow,
+    'sabbat': rgb(74, 74, 232)
+);
+$spacer: 1rem;
+$spacers: (
+    
+    10:  ($spacer * 10)
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; 
+
+
+h1{
+    color: red;
+}
